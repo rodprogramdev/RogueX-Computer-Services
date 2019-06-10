@@ -1,0 +1,19 @@
+{
+  "name": "roguexcybercafe",
+  "version": "1.0.0",
+  "description": "Landing page for roguexcybercafe",
+  "main": "script.js",
+  "scripts": {
+
+  "compile:sass": "node-sass sass/main.scss css/landingpage.css -w"
+  
+  },
+  "keywords": [
+    "ROUGE-X"
+  ],
+  "author": "Rodrigo Bonzerr S. Lopez",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.10.0"
+  }
+}
