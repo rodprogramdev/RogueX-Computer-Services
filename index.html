@@ -516,18 +516,7 @@
            
             <canvas id="gameCanvas" width="800"   height="600"></canvas>         
             
-            <script>
-                var canvas;
-                var canvasContext;
-   
-                window.onload = function () {                 
-                    canvas = documetn.getElementById('gameCanvas');
-                    canvasContext = canvas.getContext('2d');
-                    canvasContext.fillStyle ='black';
-                    canvasContext.fillRect(0,0,canvas.width, canvas.height);
-                }
-                
-            </script>
+          
         </div>
     </div>
 
@@ -620,6 +609,18 @@
         console.log('particles.json loaded....');
     });
 </script>
+      <script>
+                var canvas;
+                var canvasContext;
+   
+                window.onload = function () {                 
+                    canvas = documetn.getElementById('gameCanvas');
+                    canvasContext = canvas.getContext('2d');
+                    canvasContext.fillStyle ='black';
+                    canvasContext.fillRect(0,0,canvas.width, canvas.height);
+                }
+                
+            </script>
 </body>
 
 </html>
