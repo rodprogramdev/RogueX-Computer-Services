@@ -610,14 +610,25 @@
       <script>
                 var canvas;
                 var canvasContext;
+                var ballX = 50;
    
-                window.onload = function() {                 
+                window.onload = function() {    
+                    console.log("called drawEverything");
                     canvas = documetn.getElementById('gameCanvas');
                     canvasContext = canvas.getContext('2d');
-                    canvasContext.fillStyle ='green';
-                    canvasContext.fillRect(0,0,canvas.width, canvas.height);
+                    drawEverything();
+                    
                 }
                 
+                function drawEverything() {
+                    ballX = ballX + 10;
+                    canvasContext.fillStyle ='black';
+                    canvasContext.filRect(0,0,canvas.withd, canvas.height);
+                    canvasContext.fillStyle ="white';
+                    canvasContext.fillRect(255,210,200,200);
+                    canvasContext.fillStye='red';
+                    canvasCOntext.fillRect(ballX,200,50,25);
+                }
             </script>
 </body>
 
