@@ -616,14 +616,16 @@
                     console.log("called drawEverything");
                     canvas = documetn.getElementById('gameCanvas');
                     canvasContext = canvas.getContext('2d');
+                    setInterval(drawEverything,1000);
                     drawEverything();
                     
                 }
                 
                 function drawEverything() {
                     ballX = ballX + 10;
+                    console.log(ballX);
                     canvasContext.fillStyle ='black';
-                    canvasContext.filRect(0,0,canvas.withd, canvas.height);
+                    canvasContext.filRect(0,0,canvas.width, canvas.height);
                     canvasContext.fillStyle ="white';
                     canvasContext.fillRect(255,210,200,200);
                     canvasContext.fillStye='red';
