@@ -1120,7 +1120,7 @@ body {
         width: 100%; } }
 
 
-//game popup
+/*game popup*/
  .gameTennis {
       -webkit-backdrop-filter: blur(10px);
       backdrop-filter: blur(10px);
@@ -1140,6 +1140,7 @@ body {
     opacity: 0;
     transform: transform(-50%, -50%) scale(0);
     transition: all .5s .2s; }
+  /*
   .popup__left {
     width: 33.333333%;
     display: table-cell; }
@@ -1148,10 +1149,11 @@ body {
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem; }
-  .popup__img {
+  */
+  .gameTennis__img {
     display: block;
     width: 100%; }
-  .popup__text {
+  .gameTennis__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
     -moz-column-count: 2;
@@ -1164,13 +1166,13 @@ body {
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto; }
-  .popup:target {
+  .gameTennis:target {
     opacity: 1;
     visibility: visible; }
-  .popup:target .popup__content {
+  .gameTennis:target .popup__content {
     opacity: 1;
     transform: transform(-50%, -50%) scale(1); }
-  .popup__close:link, .popup__close:visited {
+  .gameTennis__close:link, .popup__close:visited {
     color: #000;
     position: absolute;
     top: 2.5rem;
@@ -1179,5 +1181,5 @@ body {
     text-decoration: none;
     display: inline-block;
     line-height: 1; }
-  .popup__close:hover {
+  .gameTennis__close:hover {
     color: rgba(52, 235, 15, 0.808); }
