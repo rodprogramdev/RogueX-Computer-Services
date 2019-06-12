@@ -660,6 +660,10 @@
                     canvasContext.fillRect(0,210,10,100);
                     canvasContext.fillStyle='blue';
                     canvasContext.fillRect(ballX,100,10,10);*/
+                    canvasContext.fillstyle ='blue';
+                    canvasContext.beginPath();
+                    canvasContext.arc(ballX, 100, 10, 0, Math.Pi*2, true);
+                    canvasContet.fill();
                 }
           
                 function colorRect (leftX, topY, width, height, drawColor) {
