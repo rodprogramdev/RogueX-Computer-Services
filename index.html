@@ -651,10 +651,12 @@
                 function drawEverything() {
                     //canvasContext.fillStyle ='green';
                     colorRect(0,0,canvas.width,canvas.height, 'black');
-                    canvasContext.fillStyle ='white';
+                    colorRect(0,210,10,100,'white');
+                    colorRect(ballX,100,10,10,'blue');
+                    /*canvasContext.fillStyle ='white';
                     canvasContext.fillRect(0,210,10,100);
                     canvasContext.fillStyle='blue';
-                    canvasContext.fillRect(ballX,100,10,10);
+                    canvasContext.fillRect(ballX,100,10,10);*/
                 }
           
                 function colorRect (leftX, topY, width, height, drawColor) {
