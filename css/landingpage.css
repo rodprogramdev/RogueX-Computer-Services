@@ -1121,6 +1121,7 @@ body {
 
 
 /*game popup*/
+/*
  .gameTennis {
       -webkit-backdrop-filter: blur(10px);
       backdrop-filter: blur(10px);
@@ -1151,6 +1152,7 @@ body {
     vertical-align: middle;
     padding: 3rem 5rem; }
   */
+/*
   .gameTennis__img {
     display: block;
     width: 100%; }
@@ -1184,3 +1186,4 @@ body {
     line-height: 1; }
   .gameTennis__close:hover {
     color: rgba(52, 235, 15, 0.808); }
+*/
