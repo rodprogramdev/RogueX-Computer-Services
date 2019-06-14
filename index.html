@@ -621,10 +621,10 @@
                  const PADDLE_HEIGHT = 100;
           
                 function calculateMousePs (evt) {
-                        var rect = canvas.getBoundingCLientRect();
+                        var rect = canvas.getBoundingClientRect();
                         var root = document.documentElement;
                         var mouseX = evt.clientX - rect.left - root.scrollLeft;
-                        var mouseX = evt.clientY - rect.Top - root.scrollTop;
+                        var mouseY = evt.clientY - rect.top - root.scrollTop;
                          return {
                             x:mouseX,
                              y: mouseY
