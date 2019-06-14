@@ -612,7 +612,7 @@
                 var ballSpeedX = 10;
                 var ballSpeedY = 4;
           
-                var paddle1Y = 100;
+                var paddle1Y = 150;
                 const PADDLE_HEIGHT = 30;
           
                 function calculateMousePos(evt) {
@@ -657,7 +657,7 @@
                 function moveEverything() {
                     ballX = ballX + ballSpeedX;
                      ballY = ballY + ballSpeedY;
-                    
+          //movemenet vertically
                     if(ballX < 0) {
                         ballSpeedX = -ballSpeedX;
                     }
@@ -665,8 +665,7 @@
                         ballSpeedX = -ballSpeedX;
                     }
                     
-                    
-                    
+          //movement horizontally
                     if(ballY < 0) {
                         ballSpeedY = -ballSpeedY;
                     }
