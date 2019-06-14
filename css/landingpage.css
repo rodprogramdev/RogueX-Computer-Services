@@ -1123,8 +1123,8 @@ body {
 
 #gameCanvas {
  display: block;
-    width: 100%;
-
+    width: 800;
+    height: 600;
 }
 /*game popup*/
 /*
