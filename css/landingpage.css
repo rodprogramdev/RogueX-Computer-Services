@@ -1120,8 +1120,16 @@ body {
         width: 100%; } }
 
 
+
+#gameCanvas {
+ display: block;
+    width: 100%;
+
+}
 /*game popup*/
 /*
+
+
  .gameTennis {
       -webkit-backdrop-filter: blur(10px);
       backdrop-filter: blur(10px);
@@ -1144,7 +1152,7 @@ body {
   
   .gameTennis__canvass {
     width: 100%;
-    display: /*table-cell*/ inline-block; }
+    display: /*table-cell*/
   /*
   .popup__right {
     width: 66.666667%;
