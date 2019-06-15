@@ -1195,3 +1195,11 @@ body {
   .gameTennis__close:hover {
     color: rgba(52, 235, 15, 0.808); }
 */
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 800px;
+}
