@@ -122,7 +122,7 @@ body {
   animation-duration: 1s;
   /* animation-timing-function: ease-in;*/ }
 /*max-width:3.5em*/
-  @media (max-width: 20.5em) {
+  @media (max-width: 37.5em) {
     .heading-secondary--sub {
       font-size: 1rem;
       letter-spacing: .5rem; } }
