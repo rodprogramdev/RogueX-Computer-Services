@@ -852,7 +852,7 @@ body {
     display: table;
     clear: both; }
   .row [class^="col-"] {
-    background-color: #f7f7f7;
+    background-color: white;
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 7rem; }
@@ -1121,9 +1121,9 @@ body {
         width: 100%; } }
 
 
-
+ /*
 #gameCanvas {
- /*dsplay: block;*/
+dsplay: block;
     width: 800;
     height: 600;
     padding-left: 0;
