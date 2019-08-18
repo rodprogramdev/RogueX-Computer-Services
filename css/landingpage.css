@@ -703,13 +703,11 @@ body {
   color: rgba(255, 255, 255, 0.808); }
   .header__logo-box {
     position: absolute;
-    top: 2rem;
+    top: 3rem;
     left: 4rem;
     /* background-color: red;*/ }
   .header__logo {
-    height: 8vw;
-    padding: 1rem;
-    margin: 1rem;
+    height: 10vw;
   }
   .header__nav {
     padding: 2rem;
